@@ -2,13 +2,10 @@
     <header class="content">
         <img src="/img-logo.svg" alt="logo">
         <img src="@/assets/images/logo.png" alt="logo">
-        <router-link to="/login">Войти</router-link>
+        <router-link to="/">Выйти</router-link>
     </header>
 </template>
 <script>
-export default {
-    name: 'TheHeader'
-}
 </script>
 <style scoped>
 header{
