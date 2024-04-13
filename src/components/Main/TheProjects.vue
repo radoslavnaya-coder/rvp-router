@@ -2,8 +2,8 @@
     <div class="content">
         <h3>Проекты</h3>
         <Carousel :itemsToShow="3" :wrapAround="true" :transition="500">
-            <Slide v-for="slide in 10" :key="slide">
-              <div class="carousel__item">{{ slide }}</div>
+            <Slide v-for="slide in projects" :key="slide" :ref="projects">
+              <div class="carousel__item">OurWorks</div>
             </Slide>
             <template #addons>
                 <Navigation class="arrows" />
@@ -13,6 +13,7 @@
 </template>
 <script>
 import { defineComponent } from 'vue'
+import { ref } from 'vue'
 import { Carousel, Navigation, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
@@ -22,6 +23,13 @@ export default defineComponent({
       Carousel,
       Slide,
       Navigation
+  },
+  setup() {
+    const projects = ref([
+      '/login-bg.jpg',
+      '/login-bg.jpg'
+    ])
+    return { projects }
     }
   })
 </script>
@@ -41,7 +49,7 @@ div h3{
   .carousel__viewport {
     perspective: 2000px;
   }
-  
+
   .carousel__track {
     transform-style: preserve-3d;
   }

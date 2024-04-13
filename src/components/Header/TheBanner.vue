@@ -2,7 +2,7 @@
     <div class="content banner">
         <div class="banner-script">
             <h3>Сделаем город лучше вместе!</h3>
-            <a href="#">Сообщить о проблеме</a>
+            <router-link to="/register">Сообщить о проблеме</router-link>
         </div>
     </div>
 </template>

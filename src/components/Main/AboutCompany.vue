@@ -3,15 +3,14 @@
         <h3>О компании</h3>
         <div class="withbanner-des">
             <img src="@/assets/images/about-banner.jpg" alt="banner">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>"Сделаем лучше вместе" - это команда профессионалов, объединенных общей целью обеспечить качественный и надежный ремонт дорог для комфорта и безопасности наших клиентов. Мы специализируемся на ремонте и реконструкции дорожного покрытия, улучшая инфраструктуру и обеспечивая удобные условия для передвижения.</p>
         </div>
-        <b>Lorem ipsum</b>
-        <ol>
-            <li> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-            <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-        </ol>
+        <b>Наши ценности:</b>
+        <ul>
+            <li>Профессионализм: Наша команда состоит из опытных специалистов, готовых решать любые задачи, связанные с ремонтом дорог.</li>
+            <li>Качество: Мы стремимся к высокому качеству работы, используя инновационные методы и материалы, чтобы обеспечить долговечность и надежность каждого проекта.</li>
+            <li>Сотрудничество: Мы искренне верим в силу совместного труда и готовы сотрудничать с заказчиками, предлагая индивидуальный подход к каждому проекту.</li>
+        </ul>
         <p class="about-icon"><img src="/icons/about-icon.svg" alt="icon"></p>
     </div>
 </template>
@@ -27,9 +26,13 @@ div h3{
     text-align: center;
     background: url(/icons/about-company.svg) no-repeat right 42% top 80%;
 }
+ul {
+    list-style-type: '—     ';
+}
 .withbanner-des{
     display: flex;
     align-items: center;
+    margin: 2rem 0;
 }
 .withbanner-des p{
     padding: 2rem 4rem;

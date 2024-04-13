@@ -29,6 +29,9 @@ export default {
 }
 </script>
 <style scoped>
+h3 {
+    text-align: center;
+}
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
