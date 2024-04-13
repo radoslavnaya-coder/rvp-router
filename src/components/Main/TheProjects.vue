@@ -3,7 +3,9 @@
         <h3>Проекты</h3>
         <Carousel :itemsToShow="3" :wrapAround="true" :transition="500">
             <Slide v-for="slide in projects" :key="slide" :ref="projects">
-              <div class="carousel__item">OurWorks</div>
+              <div class="carousel__item"><img :width="300" src="/login-bg.jpg" alt=""><br><h3>Наша работа</h3>
+                Очень важна, так как мы устраняем проблемы городской среды
+              </div>
             </Slide>
             <template #addons>
                 <Navigation class="arrows" />
@@ -41,7 +43,7 @@ div h3{
 /* Carousel*/
 .carousel__slide {
     padding: 5rem;
-    background: green;
+    background: #7E94C6;
     height: 40rem;
     border-radius: 25px;
   }

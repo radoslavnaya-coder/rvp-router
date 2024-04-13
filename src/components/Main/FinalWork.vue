@@ -40,7 +40,7 @@ h3 {
     text-align: center;
     margin: 4rem 0;
 }
-.project-item{
+.project-item img{
     box-shadow: -20px 16px #7E94C6;
     border-radius: 5px;
 }

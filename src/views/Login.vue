@@ -7,7 +7,7 @@
       <input type="email" name="mail">
       <label for="password">Пароль</label>
       <input type="password" name="password">
-      <button>Продолжить</button>
+      <router-link to="/administration"><button>Продолжить</button></router-link>
       <router-link to="/register">Создать аккаунт</router-link>
     </form>
   </div>

@@ -11,7 +11,7 @@
         <input type="password" name="password">
         <label for="repeatPassword">Повтор пароля</label>
         <input type="password" name="repeatPassword">
-        <button>Продолжить</button>
+        <router-link to="/administration"><button>Продолжить</button></router-link>
         <router-link to="/login">Есть аккаунт? Войти</router-link>
       </form>
     </div>
